@@ -30,5 +30,6 @@ class _HttpDemoPageState extends State<HttpDemoPage> {
     datas = data["results"];
     print('data:$data');
     print(datas[0]["name"]);
+    return data[0]["location"];
   }
 }
