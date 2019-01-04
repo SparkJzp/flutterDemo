@@ -1,3 +1,4 @@
+import 'package:demo/http/demo_03.dart';
 import 'package:demo/list_and_dialog/demo_01.dart';
 import 'package:demo/tab/demo_02.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.teal,
       ),
-      home: Demo_02Page(),
+      home: HttpDemoPage(),
     );
   }
 }

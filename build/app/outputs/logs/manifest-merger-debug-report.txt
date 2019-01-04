@@ -4,6 +4,8 @@ ADDED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidMan
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
+MERGED from [:shared_preferences] /Users/kaka/Project/learn/flutterDemo/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_webview_plugin] /Users/kaka/Project/learn/flutterDemo/build/flutter_webview_plugin/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-5:12
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12
@@ -67,6 +69,8 @@ uses-sdk
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences] /Users/kaka/Project/learn/flutterDemo/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/kaka/Project/learn/flutterDemo/build/shared_preferences/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -77,3 +81,9 @@ INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/Android
 		INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/kaka/Project/learn/flutterDemo/android/app/src/main/AndroidManifest.xml:1:1-39:12 reason: com.flutter_webview_plugin requested WRITE_EXTERNAL_STORAGE
