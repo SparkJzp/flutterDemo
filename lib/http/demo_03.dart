@@ -24,7 +24,7 @@ class _HttpDemoPageState extends State<HttpDemoPage> {
 
   Future<String> makeRequest() async {
     var response = await http
-        .get(Uri.encodeFull(url), headers: {"Accept": "applocation/json"});
+        .get(Uri.encodeFull(url), headers: {"Accept": "application/json"});
     print('response:$response.body');
     var data = json.jsonDecode(response.body);
     datas = data["results"];
