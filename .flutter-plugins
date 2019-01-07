@@ -1,2 +1,5 @@
 flutter_webview_plugin=/Users/kaka/Development/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.3.0+2/
+geolocator=/Users/kaka/Development/flutter/.pub-cache/hosted/pub.flutter-io.cn/geolocator-2.1.1/
+google_api_availability=/Users/kaka/Development/flutter/.pub-cache/hosted/pub.flutter-io.cn/google_api_availability-1.0.4/
+permission_handler=/Users/kaka/Development/flutter/.pub-cache/hosted/pub.flutter-io.cn/permission_handler-2.1.2/
 shared_preferences=/Users/kaka/Development/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.4.3/

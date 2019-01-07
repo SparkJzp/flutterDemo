@@ -4,9 +4,9 @@ import 'package:demo/http/demo_03.dart';
 import 'package:demo/input/input_demo.dart';
 import 'package:demo/list_and_dialog/demo_01.dart';
 import 'package:demo/list_and_json/json.dart';
+import 'package:demo/map/map_demo.dart';
 import 'package:demo/slide_menu/slide_demo.dart';
 import 'package:demo/slivers/sliver_demo.dart';
-import 'package:demo/tab/demo_02.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.teal,
       ),
-      home: ChartDemo02Page(),
+      home: MapDemoPage(),
     );
   }
 }
