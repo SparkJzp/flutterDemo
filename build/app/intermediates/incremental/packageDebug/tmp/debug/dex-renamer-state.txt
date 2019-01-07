@@ -1,4 +1,4 @@
-#Fri Jan 04 16:50:14 CST 2019
+#Mon Jan 07 12:16:25 CST 2019
 base.0=/Users/kaka/Project/learn/flutterDemo/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
